@@ -1,0 +1,2 @@
+This is an adventure 2D RPG fangame. This game is independent from Nintendo. To know more about the engine to make the game, please visit http://www.solarus-games.org. Have fun!
+PALOMA ANIA

@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "animales/oso_marron.png",
+  directions = {
+    { x = 0, y = 350, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 36 },
+    { x = 0, y = 392, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 50 },
+    { x = 0, y = 294, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 36 },
+    { x = 0, y = 224, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 50 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "animales/oso_marron.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 350, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 36, num_frames = 3 },
+    { x = 0, y = 392, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 50, num_frames = 3 },
+    { x = 0, y = 294, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 36, num_frames = 3 },
+    { x = 0, y = 224, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 50, num_frames = 3 },
+  },
+}

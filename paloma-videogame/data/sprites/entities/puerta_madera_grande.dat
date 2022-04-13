@@ -1,0 +1,34 @@
+animation{
+  name = "closed",
+  src_image = "entities/puerta_madera_grande.png",
+  directions = {
+    { x = 201, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 201, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 201, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 201, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+  },
+}
+animation{
+  name = "closing",
+  src_image = "entities/puerta_madera_grande.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "entities/puerta_madera_grande.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+    { x = 237, y = 88, frame_width = 36, frame_height = 49, origin_x = 10, origin_y = 31 },
+  },
+}

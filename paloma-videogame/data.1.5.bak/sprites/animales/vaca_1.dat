@@ -1,0 +1,22 @@
+animation{
+  name = "vaca_1",
+  src_image = "animales/vaca_1.png",
+  directions = {
+    { x = 152, y = 415, frame_width = 90, frame_height = 64, origin_x = 48, origin_y = 52 },
+    { x = 146, y = 37, frame_width = 90, frame_height = 75, origin_x = 46, origin_y = 70 },
+    { x = 140, y = 160, frame_width = 90, frame_height = 64, origin_x = 47, origin_y = 56 },
+    { x = 146, y = 298, frame_width = 90, frame_height = 64, origin_x = 47, origin_y = 56 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "animales/vaca_1.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 415, frame_width = 128, frame_height = 64, origin_x = 68, origin_y = 54, num_frames = 3 },
+    { x = 0, y = 37, frame_width = 128, frame_height = 75, origin_x = 65, origin_y = 70, num_frames = 3 },
+    { x = 0, y = 160, frame_width = 128, frame_height = 64, origin_x = 62, origin_y = 55, num_frames = 3 },
+    { x = 0, y = 298, frame_width = 128, frame_height = 64, origin_x = 64, origin_y = 58, num_frames = 3 },
+  },
+}

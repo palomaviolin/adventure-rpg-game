@@ -1,0 +1,7 @@
+animation{
+  name = "on_ground",
+  src_image = "entities/librerias_libros/librerias_libros.png",
+  directions = {
+    { x = 0, y = 128, frame_width = 32, frame_height = 64, origin_x = 16, origin_y = 62 },
+  },
+}

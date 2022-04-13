@@ -1,0 +1,30 @@
+animation{
+  name = "closed",
+  src_image = "entities/submarino_puerta_1.png",
+  directions = {
+    { x = 120, y = 608, frame_width = 112, frame_height = 82, origin_x = 56, origin_y = 77 },
+    { x = 120, y = 608, frame_width = 112, frame_height = 82, origin_x = 56, origin_y = 77 },
+    { x = 120, y = 608, frame_width = 112, frame_height = 82, origin_x = 56, origin_y = 77 },
+    { x = 120, y = 608, frame_width = 112, frame_height = 82, origin_x = 56, origin_y = 77 },
+  },
+}
+animation{
+  name = "closing",
+  src_image = "entities/submarino_puerta_1.png",
+  directions = {
+    { x = 232, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 232, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 232, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 232, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "entities/submarino_puerta_1.png",
+  directions = {
+    { x = 344, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 344, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 344, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+    { x = 344, y = 608, frame_width = 112, frame_height = 88, origin_x = 56, origin_y = 77 },
+  },
+}

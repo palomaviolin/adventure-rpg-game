@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "hombres_lobo/hombres_lobo.png",
+  directions = {
+    { x = 0, y = 104, frame_width = 49, frame_height = 53, origin_x = 28, origin_y = 48 },
+    { x = 48, y = 156, frame_width = 49, frame_height = 53, origin_x = 24, origin_y = 48 },
+    { x = 0, y = 52, frame_width = 48, frame_height = 53, origin_x = 28, origin_y = 48 },
+    { x = 48, y = 0, frame_width = 49, frame_height = 52, origin_x = 24, origin_y = 48 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "hombres_lobo/hombres_lobo.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 104, frame_width = 48, frame_height = 52, origin_x = 28, origin_y = 48, num_frames = 3 },
+    { x = 0, y = 156, frame_width = 49, frame_height = 51, origin_x = 24, origin_y = 48, num_frames = 3 },
+    { x = 0, y = 52, frame_width = 48, frame_height = 53, origin_x = 28, origin_y = 48, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 52, origin_x = 24, origin_y = 48, num_frames = 3 },
+  },
+}

@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "animales/gallina_1.png",
+  directions = {
+    { x = 224, y = 72, frame_width = 32, frame_height = 27, origin_x = 16, origin_y = 19 },
+    { x = 225, y = 102, frame_width = 30, frame_height = 27, origin_x = 15, origin_y = 22 },
+    { x = 224, y = 40, frame_width = 32, frame_height = 27, origin_x = 16, origin_y = 19 },
+    { x = 224, y = 8, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 19 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "animales/gallina_1.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 72, frame_width = 32, frame_height = 27, origin_x = 16, origin_y = 19, num_frames = 3 },
+    { x = 190, y = 102, frame_width = 33, frame_height = 27, origin_x = 18, origin_y = 22, num_frames = 3 },
+    { x = 192, y = 40, frame_width = 32, frame_height = 27, origin_x = 16, origin_y = 19, num_frames = 3 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 19, num_frames = 3 },
+  },
+}

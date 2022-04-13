@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "bioshock_personajes/big_daddy_1.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 316, y = 49, frame_width = 54, frame_height = 55, origin_x = 28, origin_y = 49 },
+    { x = 344, y = 232, frame_width = 40, frame_height = 56, origin_x = 20, origin_y = 51 },
+    { x = 312, y = 112, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 51 },
+    { x = 44, y = 236, frame_width = 46, frame_height = 52, origin_x = 27, origin_y = 47, num_frames = 5 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "bioshock_personajes/big_daddy_1.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 318, y = 49, frame_width = 52, frame_height = 55, origin_x = 28, origin_y = 49, num_frames = 4 },
+    { x = 344, y = 232, frame_width = 40, frame_height = 56, origin_x = 20, origin_y = 51, num_frames = 4 },
+    { x = 317, y = 113, frame_width = 52, frame_height = 56, origin_x = 28, origin_y = 51, num_frames = 4 },
+    { x = 325, y = 175, frame_width = 46, frame_height = 52, origin_x = 27, origin_y = 47, num_frames = 4 },
+  },
+}

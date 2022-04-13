@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "personajes_variados/rey.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 69, y = 34, frame_width = 24, frame_height = 33, origin_x = 11, origin_y = 30 },
+    { x = 63, y = 67, frame_width = 33, frame_height = 36, origin_x = 16, origin_y = 32 },
+    { x = 0, y = 34, frame_width = 25, frame_height = 33, origin_x = 14, origin_y = 30 },
+    { x = 2, y = 0, frame_width = 36, frame_height = 34, origin_x = 16, origin_y = 32 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "personajes_variados/rey.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 33, frame_width = 22, frame_height = 34, origin_x = 12, origin_y = 32, num_frames = 2 },
+    { x = 0, y = 66, frame_width = 32, frame_height = 38, origin_x = 15, origin_y = 32, num_frames = 3 },
+    { x = 0, y = 33, frame_width = 25, frame_height = 34, origin_x = 14, origin_y = 32, num_frames = 2 },
+    { x = 1, y = 0, frame_width = 37, frame_height = 35, origin_x = 19, origin_y = 32, num_frames = 3 },
+  },
+}

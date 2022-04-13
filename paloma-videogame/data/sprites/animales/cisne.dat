@@ -1,0 +1,46 @@
+animation{
+  name = "swimming_stopped",
+  src_image = "animales/cisne.png",
+  directions = {
+    { x = 144, y = 104, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33 },
+    { x = 144, y = 152, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33 },
+    { x = 144, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33 },
+    { x = 144, y = 8, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33 },
+  },
+}
+animation{
+  name = "plunging_water",
+  src_image = "animales/cisne.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 144, y = 104, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 152, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 8, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+  },
+}
+animation{
+  name = "swimming_fast",
+  src_image = "animales/cisne.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 144, y = 104, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 152, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 8, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+  },
+}
+animation{
+  name = "swimming_slow",
+  src_image = "animales/cisne.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 144, y = 104, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 152, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+    { x = 144, y = 8, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 33, num_frames = 3 },
+  },
+}

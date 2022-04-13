@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "orcos/orco_jefe.png",
+  directions = {
+    { x = 0, y = 154, frame_width = 80, frame_height = 79, origin_x = 40, origin_y = 74 },
+    { x = 0, y = 234, frame_width = 80, frame_height = 79, origin_x = 39, origin_y = 74 },
+    { x = 0, y = 77, frame_width = 80, frame_height = 77, origin_x = 40, origin_y = 74 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 77, origin_x = 40, origin_y = 74 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "orcos/orco_jefe.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 154, frame_width = 80, frame_height = 79, origin_x = 40, origin_y = 74, num_frames = 3 },
+    { x = 0, y = 234, frame_width = 80, frame_height = 79, origin_x = 39, origin_y = 74, num_frames = 3 },
+    { x = 0, y = 77, frame_width = 80, frame_height = 77, origin_x = 40, origin_y = 74, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 77, origin_x = 40, origin_y = 74, num_frames = 3 },
+  },
+}

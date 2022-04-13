@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "nubes/nubes_variadas.png",
+  frame_delay = 950,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "nubes/nubes_variadas.png",
+  frame_delay = 950,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+    { x = 12, y = 64, frame_width = 42, frame_height = 52, origin_x = 20, origin_y = 20, num_frames = 4 },
+  },
+}

@@ -1,0 +1,7 @@
+animation{
+  name = "on_ground",
+  src_image = "entities/fondos/cielo_azul_1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 520, frame_height = 170, origin_x = 260, origin_y = 88 },
+  },
+}

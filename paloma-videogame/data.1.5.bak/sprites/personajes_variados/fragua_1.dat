@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "personajes_variados/fragua.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 69, frame_width = 51, frame_height = 59, origin_x = 22, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 69, frame_width = 51, frame_height = 59, origin_x = 22, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 69, frame_width = 51, frame_height = 59, origin_x = 22, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 69, frame_width = 51, frame_height = 59, origin_x = 22, origin_y = 28, num_frames = 3 },
+  },
+}

@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "animales/perrito_marfil.png",
+  directions = {
+    { x = 32, y = 70, frame_width = 32, frame_height = 26, origin_x = 16, origin_y = 25 },
+    { x = 32, y = 99, frame_width = 32, frame_height = 29, origin_x = 16, origin_y = 27 },
+    { x = 32, y = 38, frame_width = 32, frame_height = 26, origin_x = 16, origin_y = 25 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 33, origin_x = 16, origin_y = 30 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "animales/perrito_marfil.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 70, frame_width = 32, frame_height = 26, origin_x = 16, origin_y = 25, num_frames = 3 },
+    { x = 0, y = 99, frame_width = 32, frame_height = 29, origin_x = 16, origin_y = 27, num_frames = 3 },
+    { x = 0, y = 38, frame_width = 32, frame_height = 26, origin_x = 16, origin_y = 25, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 33, origin_x = 16, origin_y = 30, num_frames = 3 },
+  },
+}

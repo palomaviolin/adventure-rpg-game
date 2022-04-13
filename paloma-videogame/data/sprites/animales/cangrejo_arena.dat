@@ -1,0 +1,9 @@
+animation{
+  name = "stopped",
+  src_image = "animales/cangrejo_1.png",
+  frame_delay = 350,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 88, frame_width = 30, frame_height = 23, origin_x = 16, origin_y = 17, num_frames = 8 },
+  },
+}

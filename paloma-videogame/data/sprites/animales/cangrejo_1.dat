@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "animales/cangrejo_1.png",
+  frame_delay = 350,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 152, y = 42, frame_width = 30, frame_height = 24, origin_x = 13, origin_y = 20, num_frames = 2 },
+    { x = 152, y = 20, frame_width = 30, frame_height = 24, origin_x = 13, origin_y = 17, num_frames = 2 },
+    { x = 152, y = 66, frame_width = 30, frame_height = 24, origin_x = 13, origin_y = 20, num_frames = 2 },
+    { x = 152, y = 0, frame_width = 30, frame_height = 24, origin_x = 13, origin_y = 17, num_frames = 2 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "animales/cangrejo_1.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 42, frame_width = 30, frame_height = 24, origin_x = 15, origin_y = 20, num_frames = 7 },
+    { x = 0, y = 20, frame_width = 30, frame_height = 24, origin_x = 15, origin_y = 17, num_frames = 7 },
+    { x = 0, y = 66, frame_width = 30, frame_height = 24, origin_x = 15, origin_y = 20, num_frames = 7 },
+    { x = 0, y = 0, frame_width = 30, frame_height = 24, origin_x = 15, origin_y = 17, num_frames = 7 },
+  },
+}

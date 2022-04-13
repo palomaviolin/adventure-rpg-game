@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "sirenas/sirena_5.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 104, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 143, frame_width = 56, frame_height = 49, origin_x = 28, origin_y = 40, num_frames = 3 },
+    { x = 0, y = 52, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 31, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 56, frame_height = 46, origin_x = 28, origin_y = 38, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "sirenas/sirena_5.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 104, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 143, frame_width = 56, frame_height = 43, origin_x = 28, origin_y = 38, num_frames = 3 },
+    { x = 0, y = 48, frame_width = 56, frame_height = 40, origin_x = 28, origin_y = 36, num_frames = 3 },
+    { x = 0, y = 3, frame_width = 56, frame_height = 43, origin_x = 28, origin_y = 38, num_frames = 3 },
+  },
+}

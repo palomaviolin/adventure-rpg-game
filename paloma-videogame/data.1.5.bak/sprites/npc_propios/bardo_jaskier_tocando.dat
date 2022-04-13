@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc_propios/bardo_jaskier_tocando.png",
+  frame_delay = 220,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 36, y = 70, frame_width = 61, frame_height = 38, origin_x = 14, origin_y = 33, num_frames = 4 },
+    { x = 36, y = 70, frame_width = 61, frame_height = 38, origin_x = 14, origin_y = 33, num_frames = 4 },
+    { x = 36, y = 70, frame_width = 61, frame_height = 38, origin_x = 14, origin_y = 33, num_frames = 4 },
+    { x = 36, y = 70, frame_width = 61, frame_height = 38, origin_x = 14, origin_y = 33, num_frames = 4 },
+  },
+}

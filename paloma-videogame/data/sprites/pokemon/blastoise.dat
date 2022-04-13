@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "pokemon/pokemons.png",
+  directions = {
+    { x = 0, y = 66, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 98, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 34, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 2, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "pokemon/pokemons.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 66, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 98, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 34, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 2, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+  },
+}

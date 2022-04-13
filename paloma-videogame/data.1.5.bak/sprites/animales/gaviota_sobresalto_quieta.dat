@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "animales/gaviota_quieta.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 80, y = 72, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 23, num_frames = 3 },
+    { x = 80, y = 72, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 23, num_frames = 3 },
+    { x = 80, y = 72, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 23, num_frames = 3 },
+    { x = 80, y = 72, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 23, num_frames = 3 },
+  },
+}

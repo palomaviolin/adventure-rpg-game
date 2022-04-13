@@ -1,0 +1,60 @@
+animation{
+  name = "stopped",
+  src_image = "npc_propios/monjes/monje_2.png",
+  frame_delay = 550,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 224, y = 8, frame_width = 22, frame_height = 32, origin_x = 13, origin_y = 27, num_frames = 2 },
+    { x = 226, y = 40, frame_width = 21, frame_height = 32, origin_x = 12, origin_y = 27, num_frames = 2 },
+    { x = 224, y = 72, frame_width = 22, frame_height = 32, origin_x = 13, origin_y = 27, num_frames = 2 },
+    { x = 226, y = 104, frame_width = 21, frame_height = 32, origin_x = 12, origin_y = 27, num_frames = 2 },
+  },
+}
+animation{
+  name = "cantando",
+  src_image = "npc_propios/monjes/monje_2.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 140, frame_width = 21, frame_height = 30, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 16, y = 140, frame_width = 21, frame_height = 30, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 16, y = 140, frame_width = 21, frame_height = 30, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 16, y = 140, frame_width = 21, frame_height = 30, origin_x = 10, origin_y = 27, num_frames = 3 },
+  },
+}
+animation{
+  name = "cantando_con_notas",
+  src_image = "npc_propios/monjes/monje_2.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 17, y = 176, frame_width = 49, frame_height = 32, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 17, y = 176, frame_width = 49, frame_height = 32, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 17, y = 176, frame_width = 49, frame_height = 32, origin_x = 10, origin_y = 27, num_frames = 3 },
+    { x = 17, y = 176, frame_width = 49, frame_height = 32, origin_x = 10, origin_y = 27, num_frames = 3 },
+  },
+}
+animation{
+  name = "tocando_organo",
+  src_image = "npc_propios/monjes/monje_2.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 37, y = 214, frame_width = 21, frame_height = 24, origin_x = 10, origin_y = 22, num_frames = 6 },
+    { x = 37, y = 214, frame_width = 21, frame_height = 24, origin_x = 10, origin_y = 22, num_frames = 6 },
+    { x = 37, y = 214, frame_width = 21, frame_height = 24, origin_x = 10, origin_y = 22, num_frames = 6 },
+    { x = 37, y = 214, frame_width = 21, frame_height = 24, origin_x = 10, origin_y = 22, num_frames = 6 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc_propios/monjes/monje_2.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 8, y = 8, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 27, num_frames = 8 },
+    { x = 7, y = 40, frame_width = 24, frame_height = 32, origin_x = 11, origin_y = 27, num_frames = 8 },
+    { x = 8, y = 72, frame_width = 24, frame_height = 32, origin_x = 11, origin_y = 27, num_frames = 8 },
+    { x = 8, y = 104, frame_width = 24, frame_height = 32, origin_x = 11, origin_y = 27, num_frames = 8 },
+  },
+}
