@@ -14,7 +14,7 @@ I can't upload it in its entirety because I have a free GitHub account and the s
 <h2 style="text-align:center;">CREDITS</h2>
 <br>
 <div style="display:flex; flex-direction:column; justify-content:center;">
-    <p style="text-align:center;">DEVELOMENT, ARRANGEMENTS AND SPRITES</p>
+    <p style="text-align:center;">DEVELOMENT, ARRANGEMENTS, DIALOGS, MAPS AND SPRITES</p>
     <p style="text-align:center;">
         <a href="https://palomaviolin.github.io/personalwebsite/" target="_blank">Paloma Ania</a>
     </p>
